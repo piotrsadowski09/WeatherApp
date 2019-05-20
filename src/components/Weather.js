@@ -11,7 +11,7 @@ class Weather extends React.Component {
             <>
             <div>{this.props.description && <div className={"weather"}>
                 {this.props.icon &&
-                <img className={"conditions"} src={`http://openweathermap.org/img/w/${this.props.icon}.png`} alt="Conditions"/>}
+                <img className={"conditions"} src={`https://openweathermap.org/img/w/${this.props.icon}.png`} alt="Conditions"/>}
                 <div className={"weatherInfo"}>
                     {this.props.city && this.props.country &&
                     <span className={"city"}>{this.props.city}, {this.props.country}</span>}
