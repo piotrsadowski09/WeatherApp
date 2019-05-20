@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/WeatherApp/static/css/main.60c0d17d.chunk.css",
+    "main.js": "/WeatherApp/static/js/main.f27c2fc0.chunk.js",
+    "main.js.map": "/WeatherApp/static/js/main.f27c2fc0.chunk.js.map",
+    "runtime~main.js": "/WeatherApp/static/js/runtime~main.3044ef82.js",
+    "runtime~main.js.map": "/WeatherApp/static/js/runtime~main.3044ef82.js.map",
+    "static/js/2.34c915de.chunk.js": "/WeatherApp/static/js/2.34c915de.chunk.js",
+    "static/js/2.34c915de.chunk.js.map": "/WeatherApp/static/js/2.34c915de.chunk.js.map",
+    "index.html": "/WeatherApp/index.html",
+    "precache-manifest.4037084df412ee665e33c2ef72d39959.js": "/WeatherApp/precache-manifest.4037084df412ee665e33c2ef72d39959.js",
+    "service-worker.js": "/WeatherApp/service-worker.js",
+    "static/css/main.60c0d17d.chunk.css.map": "/WeatherApp/static/css/main.60c0d17d.chunk.css.map",
+    "static/media/main.scss": "/WeatherApp/static/media/clouds-2329680_1920.955a0a7b.jpg",
+    "static/media/humidity.svg": "/WeatherApp/static/media/humidity.5c87a411.svg",
+    "static/media/logo.svg": "/WeatherApp/static/media/logo.3077681e.svg",
+    "static/media/pressure.svg": "/WeatherApp/static/media/pressure.6985bce9.svg",
+    "static/media/wind-speed.svg": "/WeatherApp/static/media/wind-speed.a92ffa0d.svg"
+  }
+}
