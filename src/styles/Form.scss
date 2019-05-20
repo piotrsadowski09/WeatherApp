@@ -1,0 +1,48 @@
+@mixin shadow($y: 0, $x: 0, $blur: 15px, $spread: 0) {
+  box-shadow: $y $x $blur $spread rgba(0, 0, 0, 0.1);
+}
+
+form {
+  input {
+    width: 80%;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 0.8rem;
+    outline: none;
+    color: #333;
+
+  }
+}
+button {
+  background: transparent;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  color: #00b4ef;
+  outline: none;
+  i:hover{
+    color:purple;
+  }
+}
+.module {
+  background-color: #ffffff;
+  padding: 20px;
+  @include shadow(0, 6px, 15px, 2px);
+  margin: 40px auto;
+  border-radius: 8px;
+  width: 60%;
+  position: relative;
+  align-items: center;
+
+}
+.find-city {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}

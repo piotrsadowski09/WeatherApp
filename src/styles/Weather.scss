@@ -1,0 +1,65 @@
+@mixin shadow($y: 0, $x: 0, $blur: 15px, $spread: 0) {
+  box-shadow: $y $x $blur $spread rgba(0, 0, 0, 0.1);
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.city {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+.temperature {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #333030;
+  font-weight: 500;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #ffffff;
+  padding: 20px;
+  @include shadow(0, 6px, 15px, 2px);
+  margin: 40px auto;
+  border-radius: 8px;
+  width: 60%;
+  position: relative;
+}
+.conditions{
+  width: 12%;
+  height: 12%;
+  align-items: center;
+  margin-right: 3px;
+}
+
+.weatherInfo{
+  display: flex;
+  flex-direction: column;
+}
+.WrongVal{
+  font-size: 20px;
+  color: red;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #ffffff;
+  padding: 20px;
+  @include shadow(0, 6px, 15px, 2px);
+  margin: 40px auto;
+  border-radius: 8px;
+  width: 60%;
+  position: relative;
+  text-decoration: none;
+}

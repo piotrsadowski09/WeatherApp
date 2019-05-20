@@ -1,0 +1,35 @@
+@mixin shadow($y: 0, $x: 0, $blur: 15px, $spread: 0) {
+  box-shadow: $y $x $blur $spread rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+  width: 100%;
+  background-color: #fff;
+  @include shadow();
+  border-radius: 8px;
+  margin: 0 auto;
+  .container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+
+    a {
+      font-family: "Lato", sans-serif;
+      font-style: italic;
+      font-size: 1rem;
+      margin-left: 16rem;
+      text-decoration: none;
+    }
+    .logo {
+
+      width: 1.8rem;
+      height: 1.8rem;
+
+      img {
+        width: 45px;
+      }
+    }
+  }
+
+}
